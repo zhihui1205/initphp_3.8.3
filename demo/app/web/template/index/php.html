@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<?php
+    function fun($m, $n){
+        if($m==0 || $n==0){
+            return 0;
+        }else{
+            $a=$m*$n;
+            return $a;
+        }
+    }
+
+    $p=2;
+    $h=3;
+    echo $p."*".$h."=".fun($p,$h);
+?>
+</body>
+</html>
